@@ -1,6 +1,14 @@
 .firstContainer {
-    background-color: blue;
-    width: 1000px;
-    height: 50px;
-    border: 10px;
+    background-color:rgb(34, 87, 122);
+    width: 300x;
+    height: 100px;
+    color: white;
+}
+.icons {
+    background-color: rgb(34, 87, 122);
+    width: 1500px;
+    height: 120px;
+}
+.secondContainer {
+    
 }

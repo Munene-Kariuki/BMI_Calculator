@@ -2,20 +2,20 @@ function BMICalculator (weight,height) {
 
     var weight = document.getElementById("weight").value;
     var weight = parseInt(weight);
-    var height = document.getElementById("weight").value;
+    var height = document.getElementById("height").value;
     var height = parseFloat(height);
 
-    var BMI = (weight / (height * height ));
+    var BMI = Math.floor (weight / (height * height ));
 
     if (BMI < 18 ) {
-        alert ("Your BMI is " + BMI + " you are underweight");
+        console.log(document.getElementById("jsAlert"). value = BMI + " you are underweight");
     }
-    if (BMI >18 && BMI <= 25 ) {
-         alert ("Your BMI is " + BMI + " you have normal weight");
+    else if (BMI >18 && BMI <= 25 ) {
+        console.log(document.getElementById("jsAlert"). value = BMI + " you have normal weight");
 
     }
-    if (BMI > 25) {
-         alert ("Your BMI is " + BMI + " you are overweight");
+    else  {
+        console.log(document.getElementById("jsAlert"). value = BMI + " you are overweight");
     }
 }
 document.querySelector("button").addEventListener("click", BMICalculator)
